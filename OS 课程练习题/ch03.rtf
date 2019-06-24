@@ -1,0 +1,818 @@
+{\rtf1\ansi\ansicpg950\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fmodern\fcharset0 CourierNewPSMT;\f2\froman\fcharset0 TimesNewRomanPS-ItalicMT;
+\f3\fnil\fcharset136 STSongti-TC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\info
+{\title Import Settings:}
+{\author Cindy Johnson}
+{\*\company Publishing Services}}\margl1440\margr1440\vieww23100\viewh15160\viewkind1
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\ri0\partightenfactor0
+
+\f0\fs24 \cf0 Import Settings: \
+Base Settings: Brownstone Default\
+Highest Answer Letter: D\
+Multiple Keywords in Same Paragraph: No\
+\
+\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 Chapter: Chapter 3\
+\
+\
+\
+Multiple Choice\
+\
+\
+\
+1.  The ____ of a process contains temporary data such as function parameters, return addresses, and local variables. \
+A)  text section\
+B)  data section\
+C)  program counter\
+D)  stack\
+\
+Ans:  D\
+Feedback: 3.1.1\
+Difficulty: Easy\
+\
+\
+\
+2.  A process control block ____.\
+A)  includes information on the process's state\
+B)  stores the address of the next instruction to be processed by a different process\
+C)  determines which process is to be executed next\
+D)  is an example of a process queue\
+\
+Ans:  A\
+Feedback: 3.1.3\
+Difficulty: Easy\
+\
+\
+\
+3.  The list of processes waiting for a particular I/O device is called a(n) ____.\
+A)  standby queue\
+B)  device queue\
+C)  ready queue\
+D)  interrupt queue\
+\
+Ans:  B\
+Feedback: 3.2.1\
+Difficulty: Easy\
+\
+\
+\
+4. The _____________ refers to the number of processes in memory.\
+A)  process count\
+B)  long-term scheduler\
+C)  degree of multiprogramming\
+D)  CPU scheduler\
+\
+Ans: C\
+Feedback: 3.2.2\
+Difficulty: Easy\
+\
+\
+\
+5.  When a child process is created, which of the following is a possibility in terms of the execution or address space of the child process?\
+A)  The child process runs concurrently with the parent.\
+B)  The child process has a new program loaded into it.\
+C)  The child is a duplicate of the parent.\
+D)  All of the above\
+\
+Ans:  D\
+Feedback: 3.3.1\
+Difficulty: Easy\
+\
+\
+\
+6. A _________________ saves the state of the currently running process and restores the state of the next process to run.\
+A) save-and-restore\
+B) state switch\
+C) context switch\
+D) none of the above\
+\
+Ans: C\
+Feedback: 3.2.3\
+Difficulty: Easy\
+\
+\
+\
+7. A process may transition to the Ready state by which of the following actions?\
+A) Completion of an I/O event\
+B) Awaiting its turn on the CPU\
+C) Newly-admitted process\
+D) All of the above\
+\
+Ans: D\
+Feedback: 3.1.2\
+Difficulty: Easy\
+\
+\
+\
+8.  In a(n)  ____ temporary queue, the sender must always block until the recipient receives the message.\
+A)  zero capacity\
+B)  variable capacity\
+C)  bounded capacity\
+D)  unbounded capacity\
+\
+Ans:  A\
+Feedback: 3.4.2\
+Difficulty:Easy\
+\
+\
+\
+9. A blocking 
+\f1\fs20 send()
+\f0\fs24  and blocking 
+\f1\fs20 receive()
+\f0\fs24  is known as a(n) _________________\
+A) synchronized message\
+B) rendezvous\
+C) blocked message\
+D) asynchronous message\
+\
+Ans:  B\
+Feedback: 3.4.2.2\
+Difficulty:Easy\
+\
+\
+\
+10 .  Which of the following is true in a Mach operating system?\
+A)  All messages have the same priority.\
+B)  Multiple messages from the same sender are guaranteed an absolute ordering.\
+C)  The sending thread must return immediately if a mailbox is full.\
+D)  It is not designed for distributed systems.\
+\
+Ans:  A\
+Feedback: 3.5.2\
+Difficulty: Moderate\
+\
+\
+\
+11.  When communicating with sockets, a client process initiates a request for a connection and is assigned a port by the host computer. Which of the following would be a valid port assignment for the host computer?\
+A)  21\
+B)  23\
+C)  80\
+D)  1625\
+\
+Ans:  D\
+Feedback: 3.6.1\
+Difficulty: Moderate\
+\
+\
+\
+12. A(n) ______________ allows several unrelated processes to use the pipe for communication.\
+A) named pipe\
+B) anonymous pipe\
+C) LIFO\
+D) ordinary pipe\
+\
+Ans: B\
+Feedback: 3.6.3.2\
+Difficulty: Moderate\
+\
+\
+\
+13. Which of the following statements is true?\
+A) Shared memory is typically faster than message passing.\
+B) Message passing is typically faster than shared memory.\
+C) Message passing is most useful for exchanging large amounts of data.\
+D) Shared memory is far more common in operating systems than message passing.\
+\
+Ans:A\
+Feedback: 3.4\
+Difficulty: Moderate\
+\
+\
+\
+14. Imagine that a host with IP address 150.55.66.77 wishes to download a file from the web server at IP address 202.28.15.123. Select a valid socket pair for a connection between this pair of hosts.\
+A) 150.55.66.77:80 and 202.28.15.123:80\
+B) 150.55.66.77:150 and 202.28.15.123:80\
+C) 150.55.66.77:2000 and 202.28.15.123:80\
+D) 150.55.66.77:80 and 202.28.15.123:3500\
+\
+Ans:C\
+Feedback: 3.6.1\
+Difficulty: Moderate\
+\
+\
+\
+15. Child processes inherit UNIX ordinary pipes from their parent process because:\
+A) The pipe is part of the code and children inherit code from their parents.\
+B) A pipe is treated as a file descriptor and child processes inherit open file descriptors from their parents.\
+C) The STARTUPINFO structure establishes this sharing.\
+D) All IPC facilities are shared between the parent and child processes.\
+\
+Ans:B\
+Feedback: 3.6.3.1\
+Difficulty: Moderate\
+\
+\
+\
+16. Which of the following statements is true?\
+A) Named pipes do not allow bi-directional communication.\
+B) Only the parent and child processes can use named pipes for communication.\
+C) Reading and writing to ordinary pipes on both UNIX and Windows systems can be performed like ordinary file I/O.\
+D) Named pipes can only be used by communicating processes on the same machine.\
+\
+Ans: C\
+Feedback: 3.6.3\
+Difficulty: Moderate\
+\
+\
+\
+17. Which of the following is not a process type in the Chrome browser?\
+A) Plug-in\
+B) Renderer\
+C) Sandbox\
+D) Browser\
+\
+Ans: C\
+Feedback: 3.4\
+Difficulty: Medium\
+\
+\
+\
+18. The ________ application is the application appearing on the display screen of a mobile device.\
+A) main\
+B) background\
+C) display\
+D) foreground\
+\
+Ans: D\
+Feedback: 3.2.3\
+Difficulty: Easy\
+\
+\
+\
+19. A process that has terminated, but whose parent has not yet called wait(), is known as a ________ process.\
+A) zombie\
+B) orphan\
+C) terminated\
+D) init\
+\
+Ans: A\
+Feedback: 3.3.2\
+Difficulty: Medium\
+\
+\
+\
+20. The _______ process is assigned as the parent to orphan processes.\
+A) zombie\
+B) init\
+C) main\
+D) renderer\
+\
+Ans: B\
+Feedback: \
+Difficulty: Medium\
+\
+\
+\
+Short Answer\
+\
+\
+\
+21.  Name and describe the different states that a process can exist in at any given time.\
+\
+Ans:  The possible states of a process are: new, running, waiting, ready, and terminated. The process is created while in the new state. In the running or waiting state, the process is executing or waiting for an event to occur, respectively.  The ready state occurs when the process is ready and waiting to be assigned to a processor and should not be confused with the waiting state mentioned earlier. After the process is finished executing its code, it enters the termination state.\
+Feedback: 3.1.2\
+Difficulty: Moderate\
+\
+\
+\
+22.  Explain the main differences between a short-term and long-term scheduler.\
+\
+Ans:  The primary distinction between the two schedulers lies in the frequency of execution. The short-term scheduler is designed to frequently select a new process for the CPU, at least once every 100 milliseconds.  Because of the short time between executions, the short-term scheduler must be fast.  The long-term scheduler executes much less frequently; minutes may separate the creation of one new process and the next. The long-term scheduler controls the degree of multiprogramming.  Because of the longer interval between executions, the long-term scheduler can afford to take more time to decide which process should be selected for execution. \
+Feedback: 3.2.2\
+Difficulty: Moderate\
+\
+\
+\
+23.  Explain the difference between an I/O-bound process and a CPU-bound process.\
+\
+Ans:  The differences between the two types of processes stem from the number of I/O requests that the process generates. An I/O-bound process spends more of its time seeking I/O operations than doing computational work. The CPU-bound process infrequently requests I/O operations and spends more of its time performing computational work.\
+Feedback: 3.2.2\
+Difficulty: Moderate\
+\
+\
+\
+24.  Explain the concept of a context switch.\
+\
+Ans:  Whenever the CPU starts executing a new process, the old process's state must be preserved. The context of a process is represented by its process control block. Switching the CPU to another process requires performing a state save of the current process and a state restore of a different process.  This task is known as a context switch.  When a context switch occurs, the kernel saves the context of the old process in its PCB and loads the saves context of the new process scheduled to run.  \
+Feedback: 3.2.3\
+Difficulty: Moderate\
+\
+\
+\
+25. Explain the fundamental differences between the UNIX 
+\f1\fs20 fork()
+\f0\fs24  and Windows 
+\f1\fs20 CreateProcess()
+\f0\fs24  functions.\
+\
+Ans: Each function is used to create a child process. However, 
+\f1\fs20 fork()
+\f0\fs24  has no parameters; 
+\f1\fs20 CreateProcess()
+\f0\fs24  has ten. Furthermore, whereas the child process created with 
+\f1\fs20 fork()
+\f0\fs24  inherits a copy of the address space of its parent, the 
+\f1\fs20 CreateProcess()
+\f0\fs24  function requires specifying the address space of the child process.\
+Feedback: 3.3.1\
+Difficulty: Moderate\
+\
+\
+\
+26.  Name the three types of sockets used in Java and the classes that implement them.\
+\
+Ans:  Connection-oriented (TCP) sockets are implemented with the 
+\f1\fs20 Socket
+\f0\fs24  class.  Connectionless (UDP) sockets use the 
+\f1\fs20 DatagramSocket
+\f0\fs24  class.  Finally, the 
+\f1\fs20 MulticastSocket
+\f0\fs24  class is a subclass of the 
+\f1\fs20 DatagramSocket
+\f0\fs24  class.  A multicast socket allows data to be sent to multiple recipients.\
+Feedback: 3.6.1\
+Difficulty: Moderate\
+\
+\
+\
+27.  What is a loopback and when is it used?\
+\
+Ans:  A loopback is a special IP address: 127.0.0.1.  When a computer refers to IP address 127.0.0.1, it is referring to itself.  When using sockets for client/server communication, this mechanism allows a client and server on the same host to communicate using the TCP/IP protocol.\
+Feedback: 3.6.1\
+Difficulty: Moderate\
+\
+\
+\
+28. Explain the purpose of external data representation (XDR).\
+\
+Ans: Data can be represented differently on different machine architectures (e.g., 
+\f2\i little-endian
+\f0\i0  vs. 
+\f2\i big-endian
+\f0\i0 ). XDR represents data independently of machine architecture. XDR is used when transmitting data between different machines using an RPC.\
+Feedback: 3.6.2\
+Difficulty: Hard\
+\
+\
+\
+29.  Explain the term marshalling.\
+\
+Ans:  Marshalling involves the packaging of parameters into a form that can be transmitted over the network.  When the client invokes a remote procedure, the RPC system calls the appropriate stub, passing it the parameters provided to the remote procedure.  This stub locates the port on the server and marshals the parameters.  If necessary, return values are passed back to the client using the same technique.\
+Feedback: 3.6.2\
+Difficulty: Moderate\
+\
+\
+\
+30.  Explain the terms "at most once" and "exactly once" and indicate how they relate to remote procedure calls.\
+\
+Ans:  Because a remote procedure call can fail in any number of ways, it is important to be able to handle such errors in the messaging system. The term "at most once" refers to ensuring that the server processes a particular message sent by the client only once and not multiple times. This is implemented by merely checking the timestamp of the message. The term "exactly once" refers to making sure that the message is executed on the server once and only once so that there is a guarantee that the server received and processed the message.\
+Feedback: 3.6.2\
+Difficulty: Hard\
+\
+\
+\
+31.  Describe two approaches to the binding of client and server ports during RPC calls.\
+\
+Ans:  First, the binding information may be predetermined, in the form of fixed port addresses.  At compile time, an RPC call has a fixed port number associated with it.  Second, binding can be done dynamically by a rendezvous mechanism.  Typically, an operating system provides a rendezvous daemon on a fixed RPC port.  A client then sends a message containing the name of the RPC to the rendezvous daemon requesting the port address of the RPC it needs to execute.  The port number is returned, and the RPC calls can be sent to that port until the process terminates (or the server crashes).\
+Feedback: 3.6.2\
+Difficulty: Hard\
+\
+\
+\
+32. Ordinarily the 
+\f1\fs20 exec()
+\f0\fs24  system call follows the 
+\f1\fs20 fork()
+\f0\fs24 . Explain what would happen if a programmer were to inadvertently place the call to 
+\f1\fs20 exec()
+\f0\fs24  before the call to 
+\f1\fs20 fork()
+\f0\fs24 .\
+\
+Ans: Because 
+\f1\fs20 exec()
+\f0\fs24  overwrites the process, we would never reach the call to 
+\f1\fs20 fork()
+\f0\fs24  and hence, no new processes would be created. Rather, the program specified in the parameter to 
+\f1\fs20 exec()
+\f0\fs24  would be run instead.\
+Feedback: 3.3.1\
+Difficulty: Moderate\
+\
+\
+\
+33. Explain why Google Chrome uses multiple processes.\
+\
+Ans: Each website opens up in a separate tab and is represented with a separate renderer process. If that webpage were to crash, only the process representing that the tab would be affected, all other sites (represented as separate tabs/processes) would be unaffected.\
+Feedback: 3.4\
+Difficulty: Moderate\
+\
+\
+\
+34. Describe how UNIX and Linux manage orphan processes.\
+\
+Ans: If a parent terminates without first calling 
+\f1 wait()
+\f0 , its children are considered orphan processes. Linux and UNIX assign the init process as the new parent of orphan processes and init periodically calls 
+\f1 wait()
+\f0   which allows any resources allocated to terminated processes to be reclaimed by the operating system.\
+Feedback: 3.3.2\
+Difficulty: Medium\
+\
+\
+\
+True/False\
+\
+\
+\
+35. All processes in UNIX first translate to a zombie process upon termination.\
+\
+Ans: True\
+Feedback: 3.3.2\
+Difficulty: Hard\
+\
+\
+\
+36.  The difference between a program and a process is that a program is an active entity while a process is a passive entity.\
+\
+Ans:  False\
+Feedback: 3.1.1\
+Difficulty: Easy\
+\
+\
+\
+37. The 
+\f1\fs20 exec()
+\f0\fs24  system call creates a new process.\
+\
+Ans: False\
+Feedback: 3.3.1\
+Difficulty: Easy\
+\
+\
+\
+38. All access to POSIX shared memory requires a system call.\
+\
+Ans: False\
+Feedback: 3.5.1\
+Difficulty: Easy\
+\
+\
+\
+39. Local Procedure Calls in Windows XP are similar to Remote Procedure Calls.\
+\
+Ans: True\
+Feedback: 3.5.3\
+Difficulty: Easy\
+\
+\
+\
+40.  For a single-processor system, there will never be more than one process in the Running state.\
+\
+Ans:  True\
+Feedback:  3.1.2\
+Difficulty: Easy\
+\
+\
+\
+41. Shared memory is a more appropriate IPC mechanism than message passing for distributed systems.\
+\
+Ans: False\
+Feedback: 3.4.2\
+Difficulty: Easy\
+\
+\
+\
+42. Ordinary pipes in UNIX require a parent-child relationship between the communicating processes.\
+\
+Ans: True\
+Feedback: 3.6.3.1\
+Difficulty: Easy\
+\
+\
+\
+43. Ordinary pipes in Windows require a parent-child relationship between the communicating processes.\
+\
+Ans: True\
+Feedback: 3.6.3.1\
+Difficulty: Easy\
+\
+\
+\
+44.  Using a section object to pass messages over a connection port avoids data copying.\
+\
+Ans:  True\
+Feedback: 3.5.3\
+Difficulty: Moderate\
+\
+\
+\
+45.  A socket is identified by an IP address concatenated with a port number.\
+\
+Ans:  True\
+Feedback: 3.6.1\
+Difficulty: Easy\
+\
+\
+\
+46.  Sockets are considered a high-level communications scheme.\
+\
+Ans:  False\
+Feedback: 3.6.1\
+Difficulty: Moderate\
+\
+\
+\
+47. The Mach operating system treats system calls with message passing.\
+\
+Ans: True\
+Feedback: 3.5.2\
+Difficulty: Moderate\
+\
+\
+\
+48. Named pipes continue to exist in the system after the creating process has terminated.\
+\
+Ans:True\
+Feedback: 3.6.3.2\
+Difficulty: Easy\
+\
+\
+\
+49. A new browser process is create by the Chrome browser for every new website that is visited.\
+\
+Ans: False\
+Feedback: 3.4\
+Difficulty: Medium\
+\
+\
+\
+50. The iOS mobile operating system only supports a limited form of multitasking.\
+\
+Ans: True\
+Feedback: 3.2.3\
+Difficulty: Medium\
+\
+\
+\
+\
+21.
+\f3 \'a9\'52\'a6\'57\'a6\'7d\'b4\'79\'ad\'7a\'a6\'62\'a5\'f4\'a6\'f3\uc0\u32473 \'a9\'77\u26102 \u38388 \u36827 \'b5\'7b\'a5\'69\'a5\'48\'a6\'73\'a6\'62\'aa\'ba\'a4\'a3\'a6\'50\u29366 \u24577 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u36827 \'b5\'7b\'aa\'ba\'a5\'69\'af\'e0\u29366 \u24577 \'ac\'4f\'a1\'47
+\f0 new
+\f3 \'a1\'41
+\f0 running
+\f3 \'a1\'41
+\f0 waiting
+\f3 \'a1\'41
+\f0 ready
+\f3 \'a9\'4d
+\f0 terminate
+\f3 \'a1\'43\'a6\'62\'b7\'73\uc0\u29366 \u24577 \'a4\'55\u21019 \'ab\'d8\u35813 \u36807 \'b5\'7b\'a1\'43\'a6\'62\u36816 \'a6\'e6\'a9\'ce\'b5\'a5\'ab\'dd\u29366 \u24577 \'a4\'55\'a1\'41\u36827 \'b5\'7b\'a5\'bf\'a6\'62\u25191 \'a6\'e6\'a9\'ce\'b5\'a5\'ab\'dd\'a8\'c6\'a5\'f3\u21457 \'a5\'cd\'a1\'43\'ad\'e3\u22791 \u29366 \u24577 \'a6\'62\u36827 \'b5\'7b\'ad\'e3\u22791 \'a6\'6e\'a6\'7d\'b5\'a5\'ab\'dd\'a4\'c0\'b0\'74\u32473 \u22788 \'b2\'7a\'be\'b9\u26102 \u21457 \'a5\'cd\'a1\'41\'a4\'a3\u24212 \'c9\'4f\'ab\'65\'ad\'b1\'b4\'a3\'a8\'ec\'aa\'ba\'b5\'a5\'ab\'dd\u29366 \u24577 \'b2\'56\'b2\'63\'a1\'43\'a6\'62\u35813 \u36807 \'b5\'7b\'a7\'b9\'a6\'a8\u25191 \'a6\'e6\'a8\'e4\'a5\'4e\u30721 \'a4\'a7\'a6\'5a\'a1\'41\'a5\'a6\u36827 \'a4\'4a\u32456 \'a4\'ee\u29366 \u24577 \'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.1.2\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+22.
+\f3 \'b8\'d1\uc0\u37322 \'b5\'75\'b4\'c1\'a9\'4d\u38271 \'b4\'c1\u35843 \'ab\'d7\u21592 \'a4\'a7\u38388 \'aa\'ba\'a5\'44\'ad\'6e\u21306 \u21035 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u20004 \u20010 \u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'a4\'a7\u38388 \'aa\'ba\'a5\'44\'ad\'6e\u21306 \u21035 \'a6\'62\'a4\'5f\u25191 \'a6\'e6\'aa\'ba\u39057 \'b2\'76\'a1\'43\'b5\'75\'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\u35774 \u35745 \'a5\'ce\'a4\'5f\u39057 \'c1\'63\'a6\'61\u20026 
+\f0 CPU
+\f3 \uc0\u36873 \u25321 \'b7\'73\u36827 \'b5\'7b\'a1\'41\'a6\'dc\'a4\'d6\'a8\'43
+\f0 100
+\f3 \'b2\'40\'ac\'ed\'a4\'40\'a6\'b8\'a1\'43\'a5\'d1\'a4\'5f\uc0\u25191 \'a6\'e6\'a4\'a7\u38388 \'aa\'ba\u26102 \u38388 \'ab\'dc\'b5\'75\'a1\'41\'a6\'5d\'a6\'b9\'b5\'75\'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'a5\'b2\u39035 \'a7\'d6\'b3\'74\'a1\'43\u38271 \'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'aa\'ba\u25191 \'a6\'e6\u39057 \'b2\'76\'a7\'43\'b1\'6f\'a6\'68
+\f0 ;
+\f3 \'a4\'c0\uc0\u38047 \'a5\'69\'a5\'48\'a4\'c0\u24320 \u21019 \'ab\'d8\'a4\'40\u20010 \'b7\'73\u36827 \'b5\'7b\'a9\'4d\'a4\'55\'a4\'40\u20010 \u36827 \'b5\'7b\'a1\'43\u38271 \'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'b1\'b1\'a8\'ee\'a6\'68\'b9\'44\'b5\'7b\'a7\'c7\'aa\'ba\'b5\'7b\'ab\'d7\'a1\'43\'a5\'d1\'a4\'5f\u25191 \'a6\'e6\'a4\'a7\u38388 \'aa\'ba\u38388 \'b9\'6a\u26102 \u38388 \u36739 \u38271 \'a1\'41\'a6\'5d\'a6\'b9\u38271 \'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'a5\'69\'a5\'48\'aa\'e1\u36153 \'a7\'f3\'a6\'68\u26102 \u38388 \u26469 \u20915 \'a9\'77\u24212 \u35813 \u36873 \u25321 \u25191 \'a6\'e6\'ad\'fe\u20010 \u36827 \'b5\'7b\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.2.2\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+23.
+\f3 \'b8\'d1\uc0\u37322 
+\f0 I / O
+\f3 \uc0\u32465 \'a9\'77\u36827 \'b5\'7b\'a9\'4d
+\f0 CPU
+\f3 \uc0\u32465 \'a9\'77\u36827 \'b5\'7b\'a4\'a7\u38388 \'aa\'ba\u21306 \u21035 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u20004 \'cf\'fa\u31867 \'ab\'ac\'aa\'ba\u36827 \'b5\'7b\'a4\'a7\u38388 \'aa\'ba\'ae\'74\'c9\'dd\'b7\'bd\'a4\'5f\u36827 \'b5\'7b\'a5\'cd\'a6\'a8\'aa\'ba
+\f0 I / O
+\f3 \uc0\u35831 \'a8\'44\u25968 \'a1\'43\'c9\'4f\u36827 \'a6\'e6\u35745 \'ba\'e2\'a4\'75\'a7\'40\'ac\'db\'a4\'f1\'a1\'41
+\f0 I / O
+\f3 \uc0\u32465 \'a9\'77\u36827 \'b5\'7b\'aa\'e1\u36153 \'a7\'f3\'a6\'68\u26102 \u38388 \u26469 \u23547 \'a7\'e4
+\f0 I / O
+\f3 \'be\'de\'a7\'40\'a1\'43\'a8\'fc
+\f0 CPU
+\f3 \'ad\'ad\'a8\'ee\'aa\'ba\uc0\u36827 \'b5\'7b\'a4\'a3\u32463 \'b1\'60\u35831 \'a8\'44
+\f0 I / O
+\f3 \'be\'de\'a7\'40\'a1\'41\'a6\'7d\'a5\'42\'aa\'e1\uc0\u36153 \'a7\'f3\'a6\'68\'aa\'ba\u26102 \u38388 \u26469 \u25191 \'a6\'e6\u35745 \'ba\'e2\'a4\'75\'a7\'40\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.2.2\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+24.
+\f3 \'b8\'d1\uc0\u37322 \'a4\'57\'a4\'55\'a4\'e5\'a4\'c1\u25442 \'aa\'ba\'b7\'a7\'a9\'c0\'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\'a8\'43\uc0\u24403 
+\f0 CPU
+\f3 \uc0\u24320 \'a9\'6c\u25191 \'a6\'e6\'b7\'73\u36827 \'b5\'7b\u26102 \'a1\'41\'a5\'b2\u39035 \'ab\'4f\'af\'64\u26087 \u36827 \'b5\'7b\'aa\'ba\u29366 \u24577 \'a1\'43\u36827 \'b5\'7b\'aa\'ba\'a4\'57\'a4\'55\'a4\'e5\'a5\'d1\'a8\'e4\u36827 \'b5\'7b\'b1\'b1\'a8\'ee\u22359 \'aa\'ed\'a5\'dc\'a1\'43\u23558 
+\f0 CPU
+\f3 \'a4\'c1\uc0\u25442 \'a8\'ec\'a5\'74\'a4\'40\u20010 \u36827 \'b5\'7b\'bb\'dd\'ad\'6e\u25191 \'a6\'e6\u24403 \'ab\'65\u36827 \'b5\'7b\'aa\'ba\u29366 \u24577 \'ab\'4f\'a6\'73\'a9\'4d\'a4\'a3\'a6\'50\u36827 \'b5\'7b\'aa\'ba\u29366 \u24577 \'ab\'ec\'ce\'60\'a1\'43\'a6\'b9\'a5\'f4\u21153 \u31216 \u20026 \'a4\'57\'a4\'55\'a4\'e5\'a4\'c1\u25442 \'a1\'43\u21457 \'a5\'cd\'a4\'57\'a4\'55\'a4\'e5\'a4\'c1\u25442 \u26102 \'a1\'41\u20869 \'ae\'d6\u20250 \u23558 \u26087 \u36827 \'b5\'7b\'aa\'ba\'a4\'57\'a4\'55\'a4\'e5\'ab\'4f\'a6\'73\'a6\'62\'a8\'e4
+\f0 PCB
+\f3 \'a4\'a4\'a1\'41\'a6\'7d\'a5\'5b\uc0\u36733 \u35745 \'a6\'45\u36816 \'a6\'e6\'aa\'ba\'b7\'73\u36827 \'b5\'7b\'aa\'ba
+\f0 save
+\f3 \'a4\'57\'a4\'55\'a4\'e5\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.2.3\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+25.
+\f3 \'b8\'d1\uc0\u37322 
+\f0 UNIX fork
+\f3 \'a1\'5d\'a1\'5e\'a9\'4d
+\f0 Windows CreateProcess
+\f3 \'a1\'5d\'a1\'5e\'a8\'e7\uc0\u25968 \'a4\'a7\u38388 \'aa\'ba\'ae\'da\'a5\'bb\u21306 \u21035 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\'a8\'43\uc0\u20010 \'a8\'e7\u25968 \'a5\'ce\'a4\'5f\u21019 \'ab\'d8\'a4\'6c\u36827 \'b5\'7b\'a1\'43\'a6\'fd\'ac\'4f\'a1\'41
+\f0 fork
+\f3 \'a1\'5d\'a1\'5e\uc0\u27809 \'a6\'b3\u21442 \u25968 
+\f0 ; CreateProcess
+\f3 \'a1\'5d\'a1\'5e\'a6\'b3\'a4\'51\uc0\u20010 \'a1\'43\'a6\'b9\'a5\'7e\'a1\'41\u23613 \'ba\'de\'a8\'cf\'a5\'ce
+\f0 fork
+\f3 \'a1\'5d\'a1\'5e\uc0\u21019 \'ab\'d8\'aa\'ba\'a4\'6c\u36827 \'b5\'7b\u32487 \'a9\'d3\'a4\'46\'a8\'e4\'a4\'f7\u36827 \'b5\'7b\'aa\'ba\'a6\'61\'a7\'7d\'aa\'c5\u38388 \'aa\'ba\'b0\'c6\'a5\'bb\'a1\'41\'a6\'fd
+\f0 CreateProcess
+\f3 \'a1\'5d\'a1\'5e\'a8\'e7\uc0\u25968 \'bb\'dd\'ad\'6e\'ab\'fc\'a9\'77\'a4\'6c\u36827 \'b5\'7b\'aa\'ba\'a6\'61\'a7\'7d\'aa\'c5\u38388 \'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.3.1\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+26.
+\f3 \'a9\'52\'a6\'57
+\f0 Java
+\f3 \'a4\'a4\'a8\'cf\'a5\'ce\'aa\'ba\'a4\'54\'cf\'fa\uc0\u31867 \'ab\'ac\'aa\'ba\'ae\'4d\'b1\'b5\'a6\'72\'a5\'48\'a4\'ce\u23454 \u29616 \'a5\'a6\u20204 \'aa\'ba\u31867 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\'ad\'b1\'a6\'56\uc0\u36830 \'b1\'b5\'aa\'ba\'a1\'5d
+\f0 TCP
+\f3 \'a1\'5e\'ae\'4d\'b1\'b5\'a6\'72\'ac\'4f\'a8\'cf\'a5\'ce
+\f0 Socket
+\f3 \uc0\u31867 \u23454 \u29616 \'aa\'ba\'a1\'43\u26080 \u36830 \'b1\'b5\'a1\'5d
+\f0 UDP
+\f3 \'a1\'5e\'ae\'4d\'b1\'b5\'a6\'72\'a8\'cf\'a5\'ce
+\f0 DatagramSocket
+\f3 \uc0\u31867 \'a1\'43\'b3\'cc\'a6\'5a\'a1\'41
+\f0 MulticastSocket
+\f3 \uc0\u31867 \'ac\'4f
+\f0 DatagramSocket
+\f3 \uc0\u31867 \'aa\'ba\'a4\'6c\u31867 \'a1\'43\u32452 \'bc\'bd\'ae\'4d\'b1\'b5\'a6\'72\'a4\'b9\u35768 \u23558 \u25968 \'d5\'75\u21457 \'b0\'65\u32473 \'a6\'68\u20010 \'a6\'ac\'a5\'f3\'a4\'48\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.6.1\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+27.
+\f3 \'a4\'b0\'a4\'5c\'ac\'4f\uc0\u29615 \'a6\'5e\'a5\'48\'a4\'ce\'a6\'f3\u26102 \'a8\'cf\'a5\'ce\'a1\'48
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u29615 \'a6\'5e\'ac\'4f\'a4\'40\'cf\'fa\'af\'53\'ae\'ed\'aa\'ba
+\f0 IP
+\f3 \'a6\'61\'a7\'7d\'a1\'47
+\f0 127.0.0.1
+\f3 \'a1\'43\uc0\u24403 \u35745 \'ba\'e2\'c9\'f3\'a4\'de\'a5\'ce
+\f0 IP
+\f3 \'a6\'61\'a7\'7d
+\f0 127.0.0.1
+\f3 \uc0\u26102 \'a1\'41\'a5\'a6\'ab\'fc\'aa\'ba\'ac\'4f\'a5\'a6\'a6\'db\'a4\'76\'a1\'43\'a8\'cf\'a5\'ce\'ae\'4d\'b1\'b5\'a6\'72\u36827 \'a6\'e6\'ab\'c8\u25143 \'ba\'dd
+\f0 /
+\f3 \'aa\'41\uc0\u21153 \'be\'b9\'b3\'71\'ab\'48\u26102 \'a1\'41\'a6\'b9\'c9\'f3\'a8\'ee\'a4\'b9\u35768 \'a6\'50\'a4\'40\'a5\'44\'c9\'f3\'a4\'57\'aa\'ba\'ab\'c8\u25143 \'ba\'dd\'a9\'4d\'aa\'41\u21153 \'be\'b9\'a8\'cf\'a5\'ce
+\f0 TCP / IP
+\f3 \uc0\u21327 \u35758 \u36827 \'a6\'e6\'b3\'71\'ab\'48\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.6.1\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+28.
+\f3 \'b8\'d1\uc0\u37322 \'a5\'7e\'b3\'a1\u25968 \'d5\'75\'aa\'ed\'a5\'dc\'a1\'5d
+\f0 XDR
+\f3 \'a1\'5e\'aa\'ba\'a5\'d8\'aa\'ba\'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u25968 \'d5\'75\'a5\'69\'a5\'48\'a6\'62\'a4\'a3\'a6\'50\'aa\'ba\'c9\'f3\'be\'b9\'ac\'5b\'cc\'db\'a4\'57\'a5\'48\'a4\'a3\'a6\'50\'aa\'ba\'a4\'e8\'a6\'a1\'aa\'ed\'a5\'dc\'a1\'5d\'a8\'d2\'a6\'70\'a1\'41
+\f0 little-endian
+\f3 \'c9\'4f
+\f0 big-endian
+\f3 \'a1\'5e\'a1\'43
+\f0  XDR
+\f3 \'aa\'ed\'a5\'dc\uc0\u29420 \'a5\'df\'a4\'5f\'c9\'f3\'be\'b9\'ac\'5b\'cc\'db\'aa\'ba\u25968 \'d5\'75\'a1\'43\'a8\'cf\'a5\'ce
+\f0 RPC
+\f3 \'a6\'62\'a4\'a3\'a6\'50\uc0\u35745 \'ba\'e2\'c9\'f3\'a4\'a7\u38388 \u20256 \u36755 \u25968 \'d5\'75\u26102 \'a8\'cf\'a5\'ce
+\f0 XDR
+\f3 \'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.6.2\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\u38590 
+\f0 \
+\
+\
+\
+29.
+\f3 \'b8\'d1\uc0\u37322 \u32534 \u32452 \'a4\'40\u35789 \'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\uc0\u32534 \u32452 \'af\'41\'a4\'ce\u23558 \u21442 \u25968 \'a5\'b4\'a5\'5d\'a6\'a8\'a5\'69\'a5\'48\'b3\'71\u36807 \'ca\'49\u32476 \u20256 \u36755 \'aa\'ba\'a7\'ce\'a6\'a1\'a1\'43\u24403 \'ab\'c8\u25143 \'ba\'dd\u35843 \'a5\'ce\u36828 \'b5\'7b\u36807 \'b5\'7b\u26102 \'a1\'41
+\f0 RPC
+\f3 \'a8\'74\uc0\u32479 \u20250 \u35843 \'a5\'ce\'ac\'db\u24212 \'aa\'ba\'a6\'73\'ae\'da\'a1\'41\'a6\'7d\u23558 \'b4\'a3\'a8\'d1\u32473 \u36828 \'b5\'7b\u36807 \'b5\'7b\'aa\'ba\u21442 \u25968 \u20256 \u36882 \u32473 \'a5\'a6\'a1\'43\'a6\'b9\'a6\'73\'ae\'da\'a9\'77\'a6\'ec\'aa\'41\u21153 \'be\'b9\'a4\'57\'aa\'ba\'ba\'dd\'a4\'66\'a6\'7d\'ab\'ca\'b0\'65\u21442 \u25968 \'a1\'43\'a6\'70\'a6\'b3\'a5\'b2\'ad\'6e\'a1\'41\'a8\'cf\'a5\'ce\'ac\'db\'a6\'50\'aa\'ba\'a7\'de\u26415 \u23558 \'aa\'f0\'a6\'5e\'ad\'c8\u20256 \u36882 \'a6\'5e\'ab\'c8\u25143 \'ba\'dd\'a1\'43
+\f0 \
+
+\f3 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 3.6.2\
+
+\f3 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+30.
+\f3 \'b8\'d1\uc0\u37322 
+\f0 \'93
+\f3 \'b3\'cc\'a6\'68\'a4\'40\'a6\'b8
+\f0 \'94
+\f3 \'a9\'4d
+\f0 \'93
+\f3 \'ab\'ea\'a6\'6e\'a4\'40\'a6\'b8
+\f0 \'94
+\f3 \uc0\u36825 \'a8\'c7\u26415 \u35821 \'a1\'41\'a6\'7d\u35828 \'a9\'fa\'a5\'a6\u20204 \'c9\'4f\u36828 \'b5\'7b\'b5\'7b\'a7\'c7\u35843 \'a5\'ce\'aa\'ba\u20851 \'a8\'74\'a1\'43
+\f0 \
+\
+Ans
+\f3 \'a1\'47\'a5\'d1\'a4\'5f\uc0\u36828 \'b5\'7b\u36807 \'b5\'7b\u35843 \'a5\'ce\'a5\'69\'af\'e0\'a5\'48\'a6\'68\'cf\'fa\'a4\'e8\'a6\'a1\'a5\'a2\u36133 \'a1\'41\'a6\'5d\'a6\'b9\'af\'e0\u22815 \'a6\'62\'ae\'f8\'ae\'a7\u20256 \u36882 \'a8\'74\u32479 \'a4\'a4\u22788 \'b2\'7a\'a6\'b9\u31867 \u38169 \u35823 \'ab\'44\'b1\'60\'ad\'ab\'ad\'6e\'a1\'43\u26415 \u35821 
+\f0 \'93
+\f3 \'b3\'cc\'a6\'68\'a4\'40\'a6\'b8
+\f0 \'94
+\f3 \'ac\'4f\'ab\'fc\'da\'cc\'ab\'4f\'aa\'41\uc0\u21153 \'be\'b9\u20165 \u22788 \'b2\'7a\'ab\'c8\u25143 \'ba\'dd\u21457 \'b0\'65\'aa\'ba\'af\'53\'a9\'77\'ae\'f8\'ae\'a7\'a4\'40\'a6\'b8\'a6\'d3\'a4\'a3\'ac\'4f\'a6\'68\'a6\'b8\'a1\'43\u36825 \u20165 \'b3\'71\u36807 \u26816 \'ac\'64\'ae\'f8\'ae\'a7\'aa\'ba\u26102 \u38388 \'c2\'57\u26469 \u23454 \u29616 \'a1\'43
+\f0  te}

@@ -1,0 +1,526 @@
+{\rtf1\ansi\ansicpg950\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fmodern\fcharset0 CourierNewPSMT;}
+{\colortbl;\red255\green255\blue255;\red251\green2\blue7;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c14913\c0;}
+{\info
+{\title Import Settings:}
+{\author Katie Habib}
+{\*\company John Wiley and Sons, Inc.}}\margl1440\margr1440\vieww18620\viewh15080\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\fs30 \cf0 Import Settings: \
+Base Settings: Brownstone Default\
+Highest Answer Letter: D\
+Multiple Keywords in Same Paragraph: No\
+\
+\
+\
+Chapter: Chapter 10\
+\
+\
+\
+Multiple Choice\
+\
+\
+\
+1.  A(n) ____ file is a sequence of  functions. \
+A)  text\
+B)  source\
+C)  object\
+D)  executable\
+\
+Ans:  B\
+Feedback: 10.1\
+Difficulty: Easy\
+\
+\
+\
+2.  A(n) ____ file is a sequence of bytes organized into blocks understandable by the system's linker. \
+A)  text\
+B)  source\
+C)  object\
+D)  executable\
+\
+Ans:  C\
+Feedback: 10.1\
+Difficulty: Easy\
+\
+\
+\
+3.  A(n) ____ file is a series of code sections that the loader can bring into memory and execute.\
+A)  text\
+B)  source\
+C)  object\
+D)  executable\
+\
+Ans:  D\
+Feedback: 10.1\
+Difficulty: Easy\
+\
+\
+\
+4.  In an environment where several processes may open the same file at the same time, ____.\
+A)  the operating system typically uses only one internal table to keep track of open files\
+B)  the operating system typically uses two internal tables called the system-wide and per-disk tables to keep track of open files\
+C)  the operating system typically uses three internal tables called the system-wide, per-disk, and per-partition tables to keep track of open files\
+D) \cf2  the operating system typically uses two internal tables called the system-wide and per-process tables to keep track of open files\cf0 \
+\
+Ans:  D\
+Feedback: 10.1\
+Difficulty: Medium\
+\
+\
+\
+5.  Suppose that the operating system uses two internal tables to keep track of open files. Process A has two files open and process B has three files open. Two files are shared between the two processes. How many entries are in the per-process table of process A, the per-process table of process B, and the system-wide tables, respectively?\
+A)  5, 5, 5\
+B)  2, 3, 3\
+C)  2, 3, 5\
+D)  2, 3, 1\
+\
+Ans:  B\
+Feedback: 10.1\
+Difficulty: Difficult\
+\
+\
+\
+6.  A shared lock ____.\
+A)  behaves like a writer lock\
+B)  ensures that a file can have only a single concurrent shared lock\
+C)  behaves like a reader lock\
+D)  will prevent all other processes from accessing the locked file\
+\
+Ans:  C\
+Feedback: 10.1\
+Difficulty: Easy\
+\
+\
+\
+7.  An exclusive lock ____.\
+A)  behaves like a writer lock\
+B)  ensures that a file can have only a single concurrent shared lock\
+C)  behaves like a reader lock\
+D)  will prevent all other processes from accessing the locked file\
+\
+Ans:  A\
+Feedback: 10.1\
+Difficulty: Easy\
+\
+\
+\
+8.  The simplest file access method is ____.\
+A)  sequential access\
+B)  logical access\
+C)  relative access\
+D)  direct access\
+\
+Ans:  A\
+Feedback: 10.2.1\
+Difficulty: Easy\
+\
+\
+\
+9. A _____ is used on UNIX systems at the beginning of some files to roughly indicate the type of the file.\
+A) file extension\
+B) creator name\
+\cf2 C) hint\
+D) magic number\cf0 \
+\
+Ans: D\
+Feedback: 10.1.3\
+Difficulty: Medium\
+\
+\
+\
+10.  Which of the following is true of the direct-access method? \
+A)  It is the most common mode of access.\
+B)  It allows programs to read and write records in no particular order.\
+C)  Files are made up of variable-length records.\
+D)  It is not a good method for accessing large amounts of data quickly.\
+\
+Ans:  B\
+Feedback: 10.2.2\
+Difficulty: Medium\
+\
+\
+\
+11.  Which of the following is true of the tree-structured directory structure?\
+A)  Users cannot create their own subdirectories.\
+B)  Users cannot acquire permission to access the files of other users.\
+C)  Directories can share subdirectories and files.\
+D)  It is the most common directory structure.\
+\
+Ans:  D\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+12.  An acyclic-graph directory structure ____.\
+A)  does not allow the sharing of files.\
+B)  allows the sharing of subdirectories and files.\
+C)  is less complicated than a simple tree-structured directory structure.\
+D)  is less flexible than a simple tree-structured directory structure.\
+\
+Ans:  B\
+Feedback: 10.3.6\
+Difficulty: Medium\
+\
+\
+\
+13. The path name
+\f1\fs26  
+\fs30 /home/people/os-student/chap10.txt
+\f0  is an example of\
+A) a relative path name\
+B) an absolute path name\
+C) a relative path name to the current directory of 
+\f1 /home
+\f0 \
+D) an invalid path name\
+\
+Ans: B\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+14.  The UNIX file system uses which of the following consistency semantics?\
+A)  Writes to an open file by a user are not visible immediately to other users that have the file open at the same time.\
+B)  Once a file is closed, the changes made to it are visible only in sessions starting later.\
+C)  Users are not allowed share the pointer of current location into the file.\
+D)  Writes to an open file by a user are visible immediately to other users that have the file open at the same time.\
+\
+Ans:  D\
+Feedback: 10.5.3\
+Difficulty: Difficult\
+\
+\
+\
+15.  Which of the following is a key property of an immutable file?\
+A)  The file name may not be reused.\
+B)  The contents of the file may be altered.\
+C)  It is difficult to implement in a distributed system.\
+D)  The file name may be reused.\
+\
+Ans:  A\
+Feedback: 10.5.3\
+Difficulty: Medium\
+\
+\
+\
+16.  Which of the following is not considered a classification of users in connection with each file?\
+A) owner\
+B) current user\
+C) group\
+D) universe\
+\
+Ans: B\
+Feedback: 10.6.2\
+Difficulty: Easy\
+\
+\
+\
+17. ______ is a secure, distributed naming mechanism.\
+A) Lightweight directory-access protocol (LDAP)\
+B) Domain name system (DNS)\
+C) Common internet file system (CIFS) \
+D) Network information service (NIS)\
+\
+Ans: A\
+Feedback: 10.5\
+Difficulty: Medium\
+\
+\
+\
+18. 
+\f1 app.exe
+\f0  is an example of a(n) _____.\
+A) batch file\
+B) object file\
+C) executable file\
+D) text file\
+\
+Ans: C\
+Feedback: 10.1.3\
+Difficulty: Easy\
+\
+\
+\
+19. A mount point is _____.\
+A) a root of the file system\
+B) a location of a shared file system\
+C) only appropriate for shared file systems\
+D) the location within the file structure where the file system is to be attached.\
+\
+Ans: D\
+Feedback: 10.4\
+Difficulty: Medium\
+\
+\
+\
+20. ________ is/are not considered a difficulty when considering file sharing.\
+A) Reliability\
+B) Multiple users\
+C) Consistency semantics\
+D) Remote access\
+\
+Ans: A\
+Feedback: 10.5\
+Difficulty: Medium\
+\
+\
+\
+21. Which of the following is not considered a file attribute?\
+A) Name\
+B) Size\
+C) Resolution\
+D) Protection\
+\
+Ans: C\
+Feedback: 10.1.1 \
+Difficulty: Easy\
+\
+\
+\
+22. The path name
+\f1\fs26  
+\fs30 os-student/src/vm.c
+\f0  is an example of\
+A) a relative path name\
+B) an absolute path name\
+C) a relative path name to the current directory of 
+\f1 /os-student
+\f0 \
+D) an invalid path name\
+\
+Ans: A\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+23. Which of the following statements regarding the client-server model is true?\
+A) A remote file system may be mounted.\
+B) The client-server relationship is not very common with networked machines.\
+C) A client may only use a single server.\
+D) The client and server agree on which resources will be made available by servers.\
+\
+Ans: A\
+Feedback: 10.5.2 \
+Difficulty: Medium\
+\
+\
+\
+Essay\
+\
+\
+\
+24.  If you were creating an operating system to handle files, what would be the six basic file operations that you should implement?\
+\
+Ans:  The six basic file operations include: creating a file, writing a file, reading a file, repositioning within a file, deleting a file, and truncating a file. These operations comprise the minimal set of required file operations.\
+Feedback: 10.1.2\
+Difficulty:  Medium\
+\
+\
+\
+25.  What are common attributes that an operating system keeps track of and associates with a file?\
+\
+Ans:  The attributes of the file are: 1) the name\'97the human-readable name of the file, 2) the identifier\'97the non-human-readable tag of the file, 3) the type of the file, 4) the location of the file, 5) the file's size (in bytes, words, or blocks), and possibly the maximum allowed size, 6) file protection through access control information, and 7) time, date, and user identification.\
+Feedback: 10.1.1\
+Difficulty: Medium\
+\
+\
+\
+26. Distinguish between an absolute path name and a relative path name. \
+\
+Ans: An absolute path name begins at the root and follows a path of directories down to the specified file, giving the directory names on the path. An example of an absolute path name is \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f1\fs26 \cf0 /
+\fs30 home/osc/chap10/file.txt
+\f0 . A relative path name defines a path from the current directory. If the current directory is 
+\f1 /home/osc/
+\f0 , then the relative path name of \
+
+\f1 chap10/file.txt
+\f0  refers to the same file as in the example of the absolute path name.\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+27.  What is the difference between an operating system that implements mandatory locking and one that implements advisory file locking?\
+\
+Ans:  Mandatory locking requires that the operating system not allow access to any file that is locked, until it is released, even if the program does not explicitly ask for a lock on the file. An advisory file locking scheme will not prevent access to a locked file, and it is up to the programmer to ensure that locks are appropriately acquired and released.\
+Feedback: 10.1.2\
+Difficulty: Medium\
+\
+\
+\
+28.  What are the advantages of using file extensions?\
+\
+Ans:  File extensions allow the user of the computer system to quickly know the type of a file by looking at the file's extension. The operating system can use the extension to determine how to handle a particular file.\
+Feedback: 10.1.3\
+Difficulty: Medium\
+\
+\
+\
+29.  Briefly explain the functionality of extended file attributes. \
+\
+Ans:  File attributes are general values representing the name of a file, its owner, size, and permissions (to name a few.) Extended file attributes refer to additional file attributes such as character encoding, security features, and application associated with opening the file.\
+Feedback: 10.1.4 \
+Difficulty: Medium\
+\
+\
+\
+30.  Why do all file systems suffer from internal fragmentation?\
+\
+Ans:  Disk space is always allocated in fixed sized blocks. Whenever a file is written to disk, it usually does not fit exactly within an integer number of blocks so that a portion of a block is wasted when storing the file onto the device.\
+Feedback: 10.1.5\
+Difficulty: Medium\
+\
+\
+\
+31.  Describe three common methods for remote file-sharing.\
+\
+Ans:  The first implemented method involves manually transferring files between machines via programs like ftp. The second major method uses a distributed file system (DFS), in which remote directories are visible from a local machine. In the third method, a browser is needed to access remote files on the World Wide Web, and separate operations (essentially a wrapper for ftp) are used to transfer files. The DFS method involves a much tighter integration between the machine that is accessing the remote files and the machine providing the files.\
+Feedback: 10.5\
+Difficulty: Medium\
+\
+\
+\
+32.  Describe how the UNIX network file system (NFS) recovers from server failure in a remote file system?\
+\
+Ans:  In the situation where the server crashes but must recognize that it has remotely mounted exported file systems and opened files, NFS takes a simple approach, implementing a stateless DFS. In essence, it assumes that a client request for a file read or write would not have occurred unless the file system had been remotely mounted and the file had been previously open. The NFS protocol carries all the information needed to locate the appropriate file and perform the requested operation, assuming that the request was legitimate. \
+Feedback: 10.5.2\
+Difficulty: Difficult\
+\
+\
+\
+33.  What are the advantages and disadvantages of access control lists?\
+\
+Ans:  Access control lists have the advantage of enabling complex access methodologies. The main problem with ACLs is their length. Constructing the list may be a tedious task. Space management also becomes more complicated because the directory size needs to be of variable size.\
+Feedback: 10.6.2\
+Difficulty: Medium\
+\
+\
+\
+True/False\
+\
+\
+\
+34. Windows systems employ mandatory locking. \
+\
+Ans:  True\
+Feedback: 10.1.2\
+Difficulty: Medium\
+\
+\
+\
+35.  As a general rule, UNIX systems employ mandatory locks.\
+\
+Ans:  False\
+Feedback: 10.1.2\
+Difficulty: Medium\
+\
+\
+\
+36.  All files in a single-level directory must have unique names. \
+\
+Ans:  True\
+Feedback:  10.3.3\
+Difficulty: Easy\
+\
+\
+\
+37.  A relative path name begins at the root.\
+\
+Ans:  False\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+38. An absolute path name must always begin at the root.\
+\
+Ans: True\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+39.  Typically, a mount point is an empty directory.\
+\
+Ans:  True\
+Feedback: 10.4\
+Difficulty: Medium\
+\
+\
+\
+40. Windows does not provide access-control lists.\
+\
+Ans: False\
+Feedback: 10.6.2\
+Difficulty: Medium \
+\
+\
+\
+41. The most common approach to file protection is to make access dependent upon the identity of the user.\
+\
+Ans: True\
+Feedback: 10.6.2\
+Difficulty: Medium\
+\
+\
+\
+42. On a UNIX system, writes to an open file are not immediately visible to other users who also have the same file open.\
+\
+Ans: False\
+Feedback: 10.5.3\
+Difficulty: Medium\
+\
+\
+\
+43. A file on a Solaris system with permissions 
+\f1 -rwx--x--x+
+\f0  is an example of both access-control lists as well as owner/group/universe protection.\
+\
+Ans: True\
+Feedback: 10.6.2\
+Difficulty: Difficult\
+\
+\
+\
+44. File system links may be to either absolute or relative path names.\
+\
+Ans: True\
+Feedback: 10.3.6\
+Difficulty: Medium\
+\
+\
+\
+45. A relative block number is an index relative to the beginning of a file.\
+\
+Ans: True\
+Feedback: 10.2.2\
+Difficulty: Medium\
+\
+\
+\
+46. Processes do not have a concept of a current directory.\
+\
+Ans: False\
+Feedback: 10.3.5\
+Difficulty: Medium\
+\
+\
+\
+47. An absolute path name cannot be a relative path name.\
+\
+Ans: False\
+Feedback: 10.3.5\
+Difficulty: Difficult\
+\
+\
+}

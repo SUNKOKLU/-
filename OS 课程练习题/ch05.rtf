@@ -1,0 +1,798 @@
+{\rtf1\ansi\ansicpg950\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fmodern\fcharset0 CourierNewPSMT;\f2\froman\fcharset0 TimesNewRomanPS-ItalicMT;
+\f3\fmodern\fcharset0 Courier;\f4\fnil\fcharset136 STSongti-TC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\info
+{\title Import Settings:}
+{\author Katie Habib}
+{\*\company John Wiley and Sons, Inc.}}\margl1440\margr1440\vieww24200\viewh15160\viewkind1
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\ri0\partightenfactor0
+
+\f0\fs24 \cf0 Import Settings: \
+Base Settings: Brownstone Default\
+Highest Answer Letter: D\
+Multiple Keywords in Same Paragraph: No\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+\
+\
+Chapter: Chapter 5\
+\
+\
+\
+Multiple Choice\
+\
+\
+\
+1.  Which of the following is true of cooperative scheduling? \
+A)  It requires a timer.\
+B)  A process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state.\
+C)  It incurs a cost associated with access to shared data.\
+D)  A process switches from the running state to the ready state when an interrupt occurs.\
+\
+Ans:  B\
+Feedback: 5.1.3\
+Difficulty: Medium\
+\
+\
+\
+2.  ____ is the number of processes that are completed per time unit.\
+A)  CPU utilization\
+B)  Response time\
+C)  Turnaround time\
+D)  Throughput\
+\
+Ans:  D\
+Feedback: 5.2\
+Difficulty: Medium\
+\
+\
+\
+3.  ____ scheduling is approximated by predicting the next CPU burst with an exponential average of the measured lengths of previous CPU bursts. \
+A)  Multilevel queue\
+B)  RR\
+C)  FCFS\
+D)  SJF\
+\
+Ans:  D\
+Feedback: 5.3.2\
+Difficulty: Medium\
+\
+\
+\
+4.  The ____ scheduling algorithm is designed especially for time-sharing systems.\
+A)  SJF\
+B)  FCFS\
+C)  RR\
+D)  Multilevel queue\
+\
+Ans:  C\
+Feedback: 5.3.4\
+Difficulty: Medium\
+\
+\
+\
+5.  Which of the following scheduling algorithms must be nonpreemptive?\
+A)  SJF\
+B)  RR\
+C)  FCFS\
+D)  priority algorithms\
+\
+Ans:  C\
+Feedback: 5.3.1\
+Difficulty: Medium\
+\
+\
+\
+6.  Which of the following is true of multilevel queue scheduling?\
+A)  Processes can move between queues.\
+B)  Each queue has its own scheduling algorithm.\
+C)  A queue cannot have absolute priority over lower-priority queues.\
+D)  It is the most general CPU-scheduling algorithm.\
+\
+Ans:  B\
+Feedback: 5.3.5\
+Difficulty: Medium\
+\
+\
+\
+7.  The default scheduling class for a process in Solaris is ____.\
+A)  time sharing\
+B)  system\
+C)  interactive\
+D)  real-time\
+\
+Ans:  A\
+Feedback: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+8. Which of the following statements are false with regards to the Linux CFS scheduler?\
+A) Each task is assigned  a proportion of CPU processing time.\
+B) Lower numeric values indicate higher relative priorities.\
+C) There is a single, system-wide value of 
+\f1 vruntime
+\f0 .\
+D)  The scheduler doesn't directly assign priorities.\
+\
+Ans:  C\
+Feedback: 5.7.1\
+Difficulty: Easy\
+\
+\
+\
+9. The Linux CFS scheduler identifies _____________ as the interval of time during which every runnable task should run at least once.\
+A) virtual run time\
+B) targeted latency\
+C) 
+\f1 nice
+\f0  value\
+D) load balancing\
+\
+Ans: B\
+Feedback: 5.7.1\
+Difficulty: Medium \
+\
+\
+\
+10.  In Little's formula, \uc0\u955 , represents the ____.\
+A)  average waiting time in the queue\
+B)  average arrival rate for new processes in the queue\
+C)  average queue length\
+D)  average CPU utilization\
+\
+Ans:  B\
+Feedback: 5.7.2\
+Difficulty: Medium\
+\
+\
+\
+11. In Solaris, what is the time quantum (in milliseconds) of an interactive thread with priority 35?\
+A) 25\
+B) 54\
+C) 80\
+D) 35\
+\
+Ans: C\
+Section: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+12. In Solaris, if an interactive thread with priority 15 uses its entire time quantum, what is its priority recalculated to?\
+A) 51\
+B) 5\
+C) 160\
+D) It remains at 15\
+\
+Ans: B \
+Feedback: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+13. In Solaris, if an interactive thread with priority 25 is waiting for I/O, what is its priority recalculated to when it is eligible to run again?\
+A) 15\
+B) 120\
+C) 52\
+D) It remains at 25\
+\
+Ans: C\
+Feedback: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+14. ______ allows a thread to run on only one processor.\
+A) Processor affinity\
+B) Processor set\
+C) NUMA\
+D) Load balancing\
+\
+Ans: A\
+Feedback: 5.5.2\
+Difficulty: Medium\
+\
+\
+\
+15. What is the numeric priority of a Windows  thread in the NORMAL_PRIORITY_CLASS with HIGHEST relative priority?\
+A) 24\
+B) 10\
+C) 8\
+D) 13\
+\
+Ans: B\
+Feedback: 5.7.2\
+Difficulty: Easy\
+\
+\
+\
+16. What is the numeric priority of a Windows  thread in the HIGH_PRIORITY_CLASS with ABOVE_NORMAL relative priority?\
+A) 24\
+B) 10\
+C) 8\
+D) 14\
+\
+Ans: D\
+Feedback: 5.7.2\
+Difficulty: Easy\
+\
+\
+\
+17. What is the numeric priority of a Windows  thread in the BELOW_NORMAL_PRIORITY_CLASS with NORMAL relative priority?\
+A) 6\
+B) 7\
+C) 5\
+D) 8\
+\
+Ans: A\
+Feedback: 5.7.2\
+Difficulty: Easy\
+\
+\
+\
+18. __________ involves the decision of which kernel thread to schedule onto which CPU.\
+A) Process-contention scope\
+B) System-contention scope\
+C) Dispatcher\
+D) Round-robin scheduling\
+\
+Ans: B\
+Feedback: 5.4.1\
+Difficulty: Easy\
+\
+\
+\
+19. With _______ a thread executes on a processor until a long-latency event  (i.e. a memory stall) occurs.\
+A) coarse-grained multithreading\
+B) fine-grained multithreading\
+C) virtualization\
+D) multicore processors\
+\
+Ans: A\
+Feedback: 5.5.4\
+Difficulty: Medium\
+\
+\
+\
+20. A significant problem with priority scheduling algorithms is _____.\
+A) complexity\
+B) starvation\
+C) determining the length of the next CPU burst\
+D) determining the length of the time quantum\
+\
+Ans: B\
+Feedback: 5.3.3\
+Difficulty: Medium\
+\
+\
+\
+21. The ______ occurs in first-come-first-served scheduling when a process with a long CPU burst occupies the CPU.\
+A) dispatch latency\
+B) waiting time\
+C) convoy effect\
+D) system-contention scope\
+\
+Ans: C\
+Feedback: 5.3.1\
+Difficulty: Medium\
+\
+\
+\
+22.  The rate of a periodic task in a hard real-time system is ____, where 
+\f2\i p
+\f0\i0  is a period and 
+\f2\i t
+\f0\i0  is the processing time.\
+A)  1/
+\f2\i p
+\f0\i0 \
+B)  
+\f2\i p/t
+\f0\i0  \
+C)  1
+\f2\i /t
+\f0\i0 \
+D)  
+\f2\i pt
+\f0\i0 \
+\
+Ans:  A\
+Section: 5.6.2\
+Difficulty: Medium\
+\
+\
+\
+\
+23.  Which of the following is true of the rate-monotonic scheduling algorithm?\
+A)  The task with the shortest period will have the lowest priority.\
+B)  It uses a dynamic priority policy.\
+C)  CPU utilization is bounded when using this algorithm.\
+D)  It is non-preemptive.\
+\
+Ans:  C\
+Section: 5.6.3\
+Difficulty: Difficult\
+\
+\
+\
+\
+24.  Which of the following is true of earliest-deadline-first (EDF) scheduling algorithm?\
+A)  When a process becomes runnable, it must announce its deadline requirements to the system.\
+B)  Deadlines are assigned as following: the earlier the deadline, the lower the priority; the later the deadline, the higher the priority.\
+C)  Priorities are fixed; that is, they cannot be adjusted when a new process starts running.\
+D)  It assigns priorities statically according to deadline.\
+\
+Ans:  A\
+Section: 5.6.4\
+Difficulty: Medium\
+\
+\
+\
+25. The two general approaches to load balancing are __________ and ____________.\
+A) soft affinity, hard affinity\
+B) coarse grained, fine grained\
+C) soft real-time, hard real-time\
+D) push migration, pull migration\
+\
+Ans: D\
+Section: 5.5.3\
+Difficulty: Medium\
+\
+\
+\
+Essay\
+\
+\
+\
+26. Distinguish between coarse-grained and fine-grained multithreading.\
+\
+Ans: There are two approaches to multithread a processor. (1) Coarse-grained multithreading allows a thread to run on a processor until a long-latency event, such as waiting for memory, to occur. When a long-latency event does occur, the processor switches to another thread. (2) Fine-grained multithreading switches between threads at a much finer-granularity, such as between instructions.\
+Feedback: 5.5.4\
+Difficulty: Medium\
+\
+\
+\
+27.  Explain the concept of a CPU\'96I/O burst cycle.\
+\
+Ans:  The lifecycle of a process can be considered to consist of a number of bursts belonging to two different states. All processes consist of CPU cycles and I/O operations. Therefore, a process can be modeled as switching between bursts of CPU execution and I/O wait. \
+Feedback: 5.1.1\
+Difficulty: Medium\
+\
+\
+\
+28.  What role does the dispatcher play in CPU scheduling?\
+\
+Ans:  The dispatcher gives control of the CPU to the process selected by the short-term scheduler. To perform this task, a context switch, a switch to user mode, and a jump to the proper location in the user program are all required. The dispatch should be made as fast as possible. The time lost to the dispatcher is termed dispatch latency. \
+Feedback: 5.1.4\
+Difficulty: Medium\
+\
+\
+\
+29.  Explain the difference between response time and turnaround time. These times are both used to measure the effectiveness of scheduling schemes.\
+\
+Ans:  Turnaround time is the sum of the periods that a process is spent waiting to get into memory, waiting in the ready queue, executing on the CPU, and doing I/O. Turnaround time essentially measures the amount of time it takes to execute a process. Response time, on the other hand, is a measure of the time that elapses between a request and the first response produced.\
+Feedback: 5.2\
+Difficulty: Medium\
+\
+\
+\
+30.  What effect does the size of the time quantum have on the performance of an RR algorithm?\
+\
+Ans:  At one extreme, if the time quantum is extremely large, the RR policy is the same as the FCFS policy. If the time quantum is extremely small, the RR approach is called processor sharing and creates the appearance that each of 
+\f2\i n
+\f0\i0  processes has its own processor running at 1/
+\f2\i n
+\f0\i0  the speed of the real processor.\
+Feedback: 5.3.4\
+Difficulty: Medium\
+\
+\
+\
+31.  Explain the process of starvation and how aging can be used to prevent it.\
+\
+Ans:  Starvation occurs when a process is ready to run but is stuck waiting indefinitely for the CPU. This can be caused, for example, when higher-priority processes prevent low-priority processes from ever getting the CPU. Aging involves gradually increasing the priority of a process so that a process will eventually achieve a high enough priority to execute if it waited for a long enough period of time.\
+Feedback: 5.3.3\
+Difficulty: Difficult\
+\
+\
+\
+32.  Explain the fundamental difference between asymmetric and symmetric multiprocessing. \
+\
+Ans:  In asymmetric multiprocessing, all scheduling decisions, I/O, and other system activities are handled by a single processor, whereas in SMP, each processor is self-scheduling.\
+Feedback: 5.5.1\
+Difficulty: Medium\
+\
+\
+\
+33.  Describe two general approaches to load balancing.\
+\
+Ans:  With push migration, a specific task periodically checks the load on each processor and \'97 if it finds an imbalance\'97evenly distributes the load by moving processes from overloaded to idle or less-busy processors. Pull migration occurs when an idle processor pulls a waiting task from a busy processor. Push and pull migration are often implemented in parallel on load-balancing systems. \
+Feedback: 5.5.3\
+Difficulty: Medium\
+\
+\
+\
+34.  In Windows, how does the dispatcher determine the order of thread execution?\
+\
+Ans:  The dispatcher uses a 32-level priority scheme to determine the execution order. Priorities are divided into two classes. The variable class contains threads having priorities from 1 to 15, and the real-time class contains threads having priorities from 16 to 31. The dispatcher uses a queue for each scheduling priority, and traverses the set of queues from highest to lowest until it finds a thread that is ready to run. The dispatcher executes an idle thread if no ready thread is found. \
+Feedback: 5.7.2\
+Difficulty: Difficult\
+\
+\
+\
+35.  What is deterministic modeling and when is it useful in evaluating an algorithm?\
+\
+Ans:  Deterministic modeling takes a particular predetermined workload and defines the performance of each algorithm for that workload.  Deterministic modeling is simple, fast, and gives exact numbers for comparison of algorithms. However, it requires exact numbers for input, and its answers apply only in those cases. The main uses of deterministic modeling are describing scheduling algorithms and providing examples to indicate trends. \
+Feedback: 5.8.1\
+Difficulty: Medium\
+\
+\
+\
+36.  What are the two types of latency that affect the performance of real-time systems?
+\f3 \uc0\u8232 
+\f0 \
+Ans:  Interrupt latency refers to the period of time from the arrival of an interrupt at the CPU to the start of the routine that services the interrupt.  Dispatch latency refers to the amount of time required for the scheduling dispatcher to stop one process and start another. \
+Section: 5.6.1\
+Difficulty: Medium\
+\
+\
+\
+37.  What are the advantages of the EDF scheduling algorithm over the rate-monotonic scheduling algorithm? 
+\f3 \uc0\u8232 
+\f0 \
+Ans:  Unlike the rate-monotonic algorithm, EDF scheduling does not require that processes be periodic, nor must a process require a constant amount of CPU time per burst.  The appeal of EDF scheduling is that it is theoretically optimal - theoretically, it can schedule processes so that each process can meet its deadline requirements and CPU utilization will be 100 percent. \
+Section: 5.6.4\
+Difficulty: Medium\
+\
+\
+\
+True/False\
+\
+\
+\
+38.  In preemptive scheduling, the sections of code affected by interrupts must be guarded from simultaneous use.\
+\
+Ans:  True\
+Feedback: 5.1.3\
+Difficulty: Medium\
+\
+\
+\
+39.  In RR scheduling, the time quantum should be small with respect to the context-switch time. \
+\
+Ans:  False\
+Feedback: 5.3.4\
+Difficulty: Medium\
+\
+\
+\
+40.  The most complex scheduling algorithm is the multilevel feedback-queue algorithm.\
+\
+Ans:  True\
+Feedback: 5.3.6\
+Difficulty: Medium\
+\
+\
+\
+41.  Load balancing is typically only necessary on systems with a common run queue. \
+\
+Ans:  False\
+Feedback: 5.5.3\
+Difficulty: Medium\
+\
+\
+\
+42.  Systems using a one-to-one model (such as Windows, Solaris , and Linux) schedule threads using process-contention scope (PCS).\
+\
+Ans:  False\
+Feedback: 5.4.1\
+Difficulty: Easy\
+\
+\
+\
+43. Solaris and Windows assign higher-priority threads/tasks longer time quantums and lower-priority tasks shorter time quantums.\
+\
+Ans: False\
+Feedback: 5.7\
+Difficulty: Medium\
+\
+\
+\
+44. A Solaris interactive thread with priority 15 has a higher relative priority than an interactive thread with priority 20\
+\
+Ans: False\
+Feedback: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+45. A Solaris interactive thread with a time quantum of 80 has a higher priority than an interactive thread with a time quantum of 120.\
+\
+Ans: True\
+Feedback: 5.7.3\
+Difficulty: Easy\
+\
+\
+\
+46. SMP systems that use multicore processors typically run faster than SMP systems that place each processor on separate cores. \
+\
+Ans: True\
+Feedback: 5.5.4\
+Difficulty: Easy \
+\
+\
+\
+47. Windows 7 User-mode scheduling (UMS) allows applications to create and manage thread independently of the kernel\
+\
+Ans: True\
+Feedback: 5.7.2\
+Difficulty: Medium\
+ \
+\
+\
+48. Round-robin (RR) scheduling degenerates to first-come-first-served (FCFS) scheduling if the time quantum is too long.\
+\
+Ans: True\
+Feedback: 5.3.4\
+Difficulty: Easy\
+\
+\
+\
+49. Load balancing algorithms have no impact on the benefits of processor affinity.\
+\
+Ans: False\
+Feedback: 5.5.3\
+Difficulty: Medium\
+\
+\
+\
+50. A multicore system allows two (or more) threads that are in compute cycles to execute at the same time.\
+\
+Ans: True\
+Feedback: 5.5.4\
+Difficulty: Easy\
+\
+\
+\
+51.  Providing a preemptive, priority-based scheduler guarantees hard real-time functionality.\
+\
+Ans:  False\
+Section: 5.6\
+Difficulty: Difficult\
+\
+\
+\
+52.  In hard real-time systems, interrupt latency must be bounded.\
+\
+Ans:  True\
+Section: 5.6.1\
+Difficulty: Medium\
+\
+\
+\
+53.  In Pthread real-time scheduling, the SCHED_FIFO class provides time slicing among threads of equal priority.\
+\
+Ans:  False\
+Section: 5.6.6\
+Difficulty: Medium\
+\
+\
+\
+54. In the Linux CFS scheduler, the task with smallest value of 
+\f1 vruntime
+\f0  is considered to have the highest priority.\
+\
+Ans: True\
+Section: 5.7.1\
+Difficulty: Medium\
+\
+\
+\
+55. The length of a time quantum  assigned by the Linux CFS scheduler is dependent upon the relative priority of a task.\
+\
+Ans: False\
+Section: 5.7.1\
+Difficulty: Medium\
+\
+\
+\
+56. The Completely Fair Scheduler (CFS) is the default scheduler for Linux systems.\
+\
+Ans: True\
+Section: 5.7.1\
+Difficulty: Medium\
+\
+26.
+\f4 \uc0\u21306 \'a4\'c0\'b2\'ca\'b2\'c9\'ab\'d7\'a9\'4d\u32454 \'b2\'c9\'ab\'d7\'a6\'68\u32447 \'b5\'7b\'a1\'43
+\f0 \
+\
+Ans
+\f4 \'a1\'47\'a6\'68\uc0\u32447 \'b5\'7b\u22788 \'b2\'7a\'be\'b9\'a6\'b3\u20004 \'cf\'fa\'a4\'e8\'aa\'6b\'a1\'43
+\f0  
+\f4 \'a1\'5d
+\f0 1
+\f4 \'a1\'5e\'b2\'ca\'b2\'c9\'ab\'d7\'a6\'68\uc0\u32447 \'b5\'7b\'a4\'b9\u35768 \u32447 \'b5\'7b\'a6\'62\u22788 \'b2\'7a\'be\'b9\'a4\'57\u36816 \'a6\'e6\'a1\'41\'aa\'bd\'a8\'ec\u21457 \'a5\'cd\u38271 \'b5\'a5\'ab\'dd\'a8\'c6\'a5\'f3\'a1\'5d\'a8\'d2\'a6\'70\'b5\'a5\'ab\'dd\u20869 \'a6\'73\'a1\'5e\'a1\'43\u24403 \u21457 \'a5\'cd\u38271 \'a9\'b5\u36831 \'a8\'c6\'a5\'f3\u26102 \'a1\'41\u22788 \'b2\'7a\'be\'b9\'a4\'c1\u25442 \'a8\'ec\'a5\'74\'a4\'40\u20010 \u32447 \'b5\'7b\'a1\'43
+\f0  
+\f4 \'a1\'5d
+\f0 2
+\f4 \'a1\'5e\uc0\u32454 \'b2\'c9\'ab\'d7\'a6\'68\u32447 \'b5\'7b\'a5\'48\'a7\'f3\'ba\'eb\u32454 \'aa\'ba\'b2\'c9\'ab\'d7\'a6\'62\u32447 \'b5\'7b\'a4\'a7\u38388 \'a4\'c1\u25442 \'a1\'41\'a8\'d2\'a6\'70\'a6\'62\'ab\'fc\'a5\'4f\'a4\'a7\u38388 \'a4\'c1\u25442 \'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.5.4\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+27.
+\f4 \'b8\'d1\uc0\u37322 
+\f0 CPU-I / O
+\f4 \'ac\'f0\uc0\u21457 \'a9\'50\'b4\'c1\'aa\'ba\'b7\'a7\'a9\'c0\'a1\'43
+\f0 \
+\
+Ans
+\f4 \'a1\'47\uc0\u36827 \'b5\'7b\'aa\'ba\'a5\'cd\'a9\'52\'a9\'50\'b4\'c1\'a5\'69\'a5\'48\'b3\'51\u35748 \u20026 \'ac\'4f\'a5\'d1\u23646 \'a4\'5f\u20004 \u20010 \'a4\'a3\'a6\'50\u29366 \u24577 \'aa\'ba\'a6\'68\u20010 \'ac\'f0\u21457 \u32452 \'a6\'a8\'a1\'43\'a9\'d2\'a6\'b3\u36827 \'b5\'7b\'b3\'a3\'a5\'5d\'a7\'74
+\f0 CPU
+\f4 \'a9\'50\'b4\'c1\'a9\'4d
+\f0 I / O
+\f4 \'be\'de\'a7\'40\'a1\'43\'a6\'5d\'a6\'b9\'a1\'41\'a5\'69\'a5\'48\uc0\u23558 \u36827 \'b5\'7b\'ab\'d8\'bc\'d2\u20026 \'a6\'62
+\f0 CPU
+\f4 \uc0\u25191 \'a6\'e6\'ac\'f0\u21457 \'a9\'4d
+\f0 I / O
+\f4 \'b5\'a5\'ab\'dd\'a4\'a7\uc0\u38388 \'a4\'c1\u25442 \'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.1.1\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+28.
+\f4 \uc0\u35843 \'ab\'d7\u21592 \'a6\'62
+\f0 CPU
+\f4 \uc0\u35843 \'ab\'d7\'a4\'a4\'a7\'ea\'ba\'74\'a4\'b0\'a4\'5c\'a8\'a4\'a6\'e2\'a1\'48
+\f0 \
+\
+Ans
+\f4 \'a1\'47\uc0\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\u23558 
+\f0 CPU
+\f4 \'b1\'b1\'a8\'ee\uc0\u26435 \'a5\'e6\u32473 \'b5\'75\'b4\'c1\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\u36873 \u25321 \'aa\'ba\u36827 \'b5\'7b\'a1\'43\'ad\'6e\u25191 \'a6\'e6\'a6\'b9\'a5\'f4\u21153 \'a1\'41\'bb\'dd\'ad\'6e\'a4\'57\'a4\'55\'a4\'e5\'a4\'c1\u25442 \'a1\'41\'a4\'c1\u25442 \'a8\'ec\'a5\'ce\u25143 \'bc\'d2\'a6\'a1\'a5\'48\'a4\'ce\'b8\'f5\u36716 \'a8\'ec\'a5\'ce\u25143 \'b5\'7b\'a7\'c7\'a4\'a4\'aa\'ba\'a5\'bf\'da\'cc\'a6\'ec\'b8\'6d\'a1\'43\u21457 \'b0\'65\u24212 \u23613 \'a7\'d6\u36827 \'a6\'e6\'a1\'43\u20002 \'a5\'a2\u32473 \u35843 \'ab\'d7\u21592 \'aa\'ba\u26102 \u38388 \u31216 \u20026 \u35843 \'ab\'d7\'a9\'b5\u36831 \'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.1.4\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+29.
+\f4 \'b8\'d1\uc0\u37322 \u21709 \u24212 \u26102 \u38388 \'a9\'4d\'a9\'50\u36716 \u26102 \u38388 \'a4\'a7\u38388 \'aa\'ba\'ae\'74\'c9\'dd\'a1\'43\u36825 \'a8\'c7\u26102 \u38388 \'b3\'a3\'a5\'ce\'a4\'5f\'bf\'c5\'b6\'71\u35843 \'ab\'d7\'a4\'e8\'ae\'d7\'aa\'ba\'a6\'b3\'ae\'c4\'a9\'ca\'a1\'43
+\f0 \
+\
+Ans
+\f4 \'a1\'47\'a9\'50\uc0\u36716 \u26102 \u38388 \'ac\'4f\u36827 \'b5\'7b\'b5\'a5\'ab\'dd\u36827 \'a4\'4a\u20869 \'a6\'73\'a1\'41\'b5\'a5\'ab\'dd\'b4\'4e\u32490 \u38431 \'a6\'43\'a1\'41\'a6\'62
+\f0 CPU
+\f4 \'a4\'57\uc0\u25191 \'a6\'e6\'a5\'48\'a4\'ce\u25191 \'a6\'e6
+\f0 I / O
+\f4 \'a9\'d2\'aa\'e1\uc0\u36153 \'aa\'ba\u26102 \u38388 \'ac\'71\'aa\'ba\u24635 \'a9\'4d\'a1\'43\'a9\'50\u36716 \u26102 \u38388 \'a5\'44\'ad\'6e\'bf\'c5\'b6\'71\u25191 \'a6\'e6\'ac\'79\'b5\'7b\'a9\'d2\'bb\'dd\'aa\'ba\u26102 \u38388 \'a1\'43\'a5\'74\'a4\'40\'a4\'e8\'ad\'b1\'a1\'41\u21709 \u24212 \u26102 \u38388 \'ac\'4f\'bf\'c5\'b6\'71\u35831 \'a8\'44\'c9\'4f\u20135 \'a5\'cd\'aa\'ba\'b2\'c4\'a4\'40\u20010 \u21709 \u24212 \'a4\'a7\u38388 \u32463 \u36807 \'aa\'ba\u26102 \u38388 \'aa\'ba\'ab\'d7\'b6\'71\'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.2\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+30.
+\f4 \uc0\u26102 \u38388 \'b6\'71\'aa\'ba\'a4\'6a\'a4\'70\u23545 
+\f0 RR
+\f4 \'ba\'e2\'aa\'6b\'aa\'ba\'a9\'ca\'af\'e0\'a6\'b3\'a4\'b0\'a4\'5c\'bc\'76\uc0\u21709 \'a1\'48
+\f0 \
+\
+Ans
+\f4 \'a1\'47\'a6\'62\'a4\'40\uc0\u20010 \'cc\'e5\'ba\'dd\'b1\'a1\u20917 \'a4\'55\'a1\'41\'a6\'70\'aa\'47\u26102 \u38388 \'b6\'71\'ab\'44\'b1\'60\'a4\'6a\'a1\'41\u21017 
+\f0 RR
+\f4 \'b5\'a6\'b2\'a4\'c9\'4f
+\f0 FCFS
+\f4 \'b5\'a6\'b2\'a4\'ac\'db\'a6\'50\'a1\'43\'a6\'70\'aa\'47\uc0\u26102 \u38388 \'b6\'71\'ab\'44\'b1\'60\'a4\'70\'a1\'41\u21017 
+\f0 RR
+\f4 \'a4\'e8\'aa\'6b\uc0\u31216 \u20026 \u22788 \'b2\'7a\'be\'b9\'a6\'40\'a8\'c9\'a1\'41\'a6\'7d\u21019 \'ab\'d8\'a5\'7e\u35266 \'a1\'41
+\f0 n
+\f4 \uc0\u20010 \u36827 \'b5\'7b\'a4\'a4\'aa\'ba\'a8\'43\u20010 \u36827 \'b5\'7b\'b3\'a3\'a6\'b3\'a6\'db\'a4\'76\'aa\'ba\u22788 \'b2\'7a\'be\'b9\'a1\'41\u36816 \'a6\'e6\'b3\'74\'ab\'d7\u20026 \'af\'75\u23454 \u22788 \'b2\'7a\'be\'b9\'aa\'ba
+\f0 1 / n
+\f4 \'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.3.4\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5
+\f0 \
+\
+\
+\
+31.
+\f4 \'b8\'d1\uc0\u37322 \u39269 \u39295 \'aa\'ba\u36807 \'b5\'7b\'a5\'48\'a4\'ce\'a6\'70\'a6\'f3\'a7\'51\'a5\'ce\'b0\'49\'a6\'d1\u26469 \u39044 \'a8\'be\u39269 \u39295 \'a1\'43
+\f0 \
+\
+Ans
+\f4 \'a1\'47\uc0\u24403 \u36827 \'b5\'7b\'ad\'e3\u22791 \'a6\'6e\u36816 \'a6\'e6\'a6\'fd\'ac\'4f\u26080 \'ad\'ad\'b4\'c1\'b5\'a5\'ab\'dd
+\f0 CPU
+\f4 \uc0\u26102 \'a1\'41\u20250 \u21457 \'a5\'cd\u39269 \u39295 \'a1\'43\'a8\'d2\'a6\'70\'a1\'41\u24403 \'c9\'ac\'a5\'fd\u32423 \u36739 \'b0\'aa\'aa\'ba\u36827 \'b5\'7b\'aa\'fd\'a4\'ee\'a7\'43\'c9\'ac\'a5\'fd\u32423 \u36827 \'b5\'7b\u33719 \'a8\'fa
+\f0 CPU
+\f4 \uc0\u26102 \'a1\'41\'a5\'69\'af\'e0\u20250 \u23548 \'ad\'50\u36825 \'cf\'fa\'b1\'a1\u20917 \'a1\'43\'a6\'d1\'a4\'c6\'af\'41\'a4\'ce\'b3\'76\u28176 \'bc\'57\'a5\'5b\u36827 \'b5\'7b\'aa\'ba\'c9\'ac\'a5\'fd\u32423 \'a1\'41\'a5\'48\'ab\'4b\'a6\'70\'aa\'47\u36827 \'b5\'7b\'b5\'a5\'ab\'dd\'a8\'ac\u22815 \u38271 \'aa\'ba\u26102 \u38388 \'ac\'71\'a1\'41\u36827 \'b5\'7b\'b3\'cc\u32456 \u23558 \u23454 \u29616 \'a8\'ac\u22815 \'b0\'aa\'aa\'ba\'c9\'ac\'a5\'fd\u32423 \'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.3.3\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a7\'78\u38590 
+\f0 \
+\
+\
+\
+32.
+\f4 \'b8\'d1\uc0\u37322 \'ab\'44\u23545 \u31216 \'a9\'4d\u23545 \u31216 \'a6\'68\u22788 \'b2\'7a\'a4\'a7\u38388 \'aa\'ba\'ae\'da\'a5\'bb\u21306 \u21035 \'a1\'43
+\f0 \
+\
+Ans
+\f4 \'a1\'47\'a6\'62\'ab\'44\uc0\u23545 \u31216 \'a6\'68\u22788 \'b2\'7a\'a4\'a4\'a1\'41\'a9\'d2\'a6\'b3\u35843 \'ab\'d7\u20915 \'b5\'a6\'a1\'41
+\f0 I / O
+\f4 \'a9\'4d\'a8\'e4\'a5\'4c\'a8\'74\uc0\u32479 \'ac\'a1\u21160 \'a5\'d1\u21333 \u20010 \u22788 \'b2\'7a\'be\'b9\u22788 \'b2\'7a\'a1\'41\'a6\'d3\'a6\'62
+\f0 SMP
+\f4 \'a4\'a4\'a1\'41\'a8\'43\uc0\u20010 \u22788 \'b2\'7a\'be\'b9\'b3\'a3\'ac\'4f\'a6\'db\u35843 \'ab\'d7\'aa\'ba\'a1\'43
+\f0 \
+
+\f4 \'a4\'cf\uc0\u39304 \'a1\'47
+\f0 5.5.1\
+
+\f4 \uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5\
+\
+33.\'b4\'79\'ad\'7a\uc0\u20004 \'cf\'fa\u36127 \u36733 \'a5\'ad\'bf\'c5\'aa\'ba\'a4\'40\'af\'eb\'a4\'e8\'aa\'6b\'a1\'43\
+\
+Ans\'a1\'47\'b3\'71\uc0\u36807 \'b1\'c0\'b0\'65\u36801 \'b2\'be\'a1\'41\'af\'53\'a9\'77\'a5\'f4\u21153 \'a9\'77\'b4\'c1\u26816 \'ac\'64\'a8\'43\u20010 \u22788 \'b2\'7a\'be\'b9\'a4\'57\'aa\'ba\u36127 \u36733 \'a1\'41\'a6\'7d\'a5\'42 - \'a6\'70\'aa\'47\u21457 \u29616 \'a4\'a3\'a5\'ad\'bf\'c5 - \'b3\'71\u36807 \u23558 \u36827 \'b5\'7b\u20174 \u36807 \u36733 \u36716 \'b2\'be\'a8\'ec\'aa\'c5\u38386 \'a9\'ce\'a4\'a3\'a4\'d3\'c1\'63\'a6\'a3\'aa\'ba\u22788 \'b2\'7a\'be\'b9\u26469 \'a7\'a1\u21248 \'a4\'c0\'b0\'74\u36127 \u36733 \'a1\'43\u24403 \'aa\'c5\u38386 \u22788 \'b2\'7a\'be\'b9\u20174 \'c1\'63\'a6\'a3\'aa\'ba\u22788 \'b2\'7a\'be\'b9\'a4\'a4\'a9\'d4\'a5\'58\'b5\'a5\'ab\'dd\'a5\'f4\u21153 \u26102 \'a1\'41\u20250 \u21457 \'a5\'cd\'a9\'d4\u36801 \'b2\'be\'a1\'43\'b1\'c0\'a9\'d4\u36801 \'b2\'be\'b3\'71\'b1\'60\'a6\'62\u36127 \u36733 \'a5\'ad\'bf\'c5\'a8\'74\u32479 \'a4\'57\'a6\'7d\'a6\'e6\u23454 \u29616 \'a1\'43\
+\'a4\'cf\uc0\u39304 \'a1\'475.5.3\
+\uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5\
+\
+\
+\
+34.\'a6\'62Windows\'a4\'a4\'a1\'41\uc0\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'a6\'70\'a6\'f3\'da\'cc\'a9\'77\u32447 \'b5\'7b\u25191 \'a6\'e6\'aa\'ba\u39034 \'a7\'c7\'a1\'48\
+\
+Ans\'a1\'47\uc0\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'a8\'cf\'a5\'ce32\u32423 \'c9\'ac\'a5\'fd\u32423 \'a4\'e8\'ae\'d7\u26469 \'da\'cc\'a9\'77\u25191 \'a6\'e6\u39034 \'a7\'c7\'a1\'43\'c9\'ac\'a5\'fd\u32423 \'a4\'c0\u20026 \u20004 \u31867 \'a1\'43\u21464 \'b6\'71\u31867 \'a5\'5d\'a7\'74\'c9\'ac\'a5\'fd\u32423 \u20174 1\'a8\'ec15\'aa\'ba\u32447 \'b5\'7b\'a1\'41\u23454 \u26102 \u31867 \'a5\'5d\'a7\'74\'c9\'ac\'a5\'fd\u32423 \u20174 16\'a8\'ec31\'aa\'ba\u32447 \'b5\'7b\'a1\'43\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\u20026 \'a8\'43\u20010 \u35843 \'ab\'d7\'c9\'ac\'a5\'fd\u32423 \'a8\'cf\'a5\'ce\'a4\'40\u20010 \u38431 \'a6\'43\'a1\'41\'a6\'7d\u20174 \'b3\'cc\'b0\'aa\'a8\'ec\'b3\'cc\'a7\'43\'b9\'4d\u21382 \u38431 \'a6\'43\'b6\'b0\'a1\'41\'aa\'bd\'a8\'ec\'a7\'e4\'a8\'ec\'a4\'40\u20010 \'ad\'e3\u22791 \u36816 \'a6\'e6\'aa\'ba\u32447 \'b5\'7b\'a1\'43\'a6\'70\'aa\'47\u27809 \'a6\'b3\'a7\'e4\'a8\'ec\'b4\'4e\u32490 \u32447 \'b5\'7b\'a1\'41\u21017 \u35843 \'ab\'d7\'b5\'7b\'a7\'c7\u25191 \'a6\'e6\'aa\'c5\u38386 \u32447 \'b5\'7b\'a1\'43\
+\'a4\'cf\uc0\u39304 \'a1\'475.7.2\
+\uc0\u38590 \'ab\'d7\'a1\'47\'a7\'78\u38590 \
+\
+\
+\
+35.\'a4\'b0\'a4\'5c\'ac\'4f\'da\'cc\'a9\'77\'a9\'ca\'ab\'d8\'bc\'d2\'a1\'41\'a6\'f3\uc0\u26102 \'a6\'62\u35780 \'a6\'f4\'ba\'e2\'aa\'6b\u26102 \'a6\'b3\'a5\'ce\'a1\'48\
+\
+Ans\'a1\'47\'da\'cc\'a9\'77\'a9\'ca\'ab\'d8\'bc\'d2\'aa\'f6\'a5\'ce\'af\'53\'a9\'77\'aa\'ba\uc0\u39044 \'a9\'77\'a4\'75\'a7\'40\u36127 \u36733 \'a1\'41\'a6\'7d\'a9\'77\u20041 \u35813 \'a4\'75\'a7\'40\u36127 \u36733 \'aa\'ba\'a8\'43\'cf\'fa\'ba\'e2\'aa\'6b\'aa\'ba\'a9\'ca\'af\'e0\'a1\'43\'da\'cc\'a9\'77\'a9\'ca\'ab\'d8\'bc\'d2\u31616 \u21333 \'a1\'41\'a7\'d6\'b3\'74\'a1\'41\'a6\'7d\'b4\'a3\'a8\'d1\'a5\'ce\'a4\'5f\'a4\'f1\u36739 \'ba\'e2\'aa\'6b\'aa\'ba\'ba\'eb\'da\'cc\u25968 \'a6\'72\'a1\'43\'a6\'fd\'ac\'4f\'a1\'41\'a5\'a6\'bb\'dd\'ad\'6e\u36755 \'a4\'4a\'aa\'ba\'da\'cc\'a4\'c1\u25968 \'a6\'72\'a1\'41\'a8\'e4\'b5\'aa\'ae\'d7\u20165 \'d3\'ec\'a5\'ce\'a4\'5f\u36825 \'a8\'c7\'b1\'a1\u20917 \'a1\'43\'da\'cc\'a9\'77\'a9\'ca\'ab\'d8\'bc\'d2\'aa\'ba\'a5\'44\'ad\'6e\'a5\'ce\'b3\'7e\'ac\'4f\'b4\'79\'ad\'7a\u35843 \'ab\'d7\'ba\'e2\'aa\'6b\'a6\'7d\'b4\'a3\'a8\'d1\'ab\'fc\'a5\'dc\u36235 \u21183 \'aa\'ba\'a5\'dc\'a8\'d2\'a1\'43\
+\'a4\'cf\uc0\u39304 \'a1\'475.8.1\
+\uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5\
+\
+\
+\
+36.\'bc\'76\uc0\u21709 \u23454 \u26102 \'a8\'74\u32479 \'a9\'ca\'af\'e0\'aa\'ba\u20004 \'cf\'fa\u31867 \'ab\'ac\'aa\'ba\'a9\'b5\u36831 \'ac\'4f\'a4\'b0\'a4\'5c\'a1\'48\
+Ans\'a1\'47\'a4\'a4\uc0\u26029 \'a9\'b5\u36831 \'ac\'4f\'ab\'fc\u20174 CPU\'a4\'a4\u26029 \'a8\'ec\u36798 \u20026 \'a4\'a4\u26029 \'aa\'41\u21153 \'aa\'ba\'a8\'d2\'b5\'7b\u24320 \'a9\'6c\'aa\'ba\u26102 \u38388 \'a1\'43\u35843 \'ab\'d7\'a9\'b5\u36831 \'ac\'4f\'ab\'fc\u35843 \'ab\'d7\u35843 \'ab\'d7\'b5\'7b\'a7\'c7\'b0\'b1\'a4\'ee\'a4\'40\u20010 \u36827 \'b5\'7b\'a6\'7d\u21551 \u21160 \'a5\'74\'a4\'40\u20010 \u36827 \'b5\'7b\'a9\'d2\'bb\'dd\'aa\'ba\u26102 \u38388 \'a1\'43\
+\'b3\'a1\'a4\'c0\'a1\'475.6.1\
+\uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5\
+\
+\
+\
+37. EDF\uc0\u35843 \'ab\'d7\'ba\'e2\'aa\'6b\'ac\'db\u23545 \'a4\'5f\'b3\'74\'b2\'76\u21333 \u35843 \u35843 \'ab\'d7\'ba\'e2\'aa\'6b\'a6\'b3\'ad\'fe\'a8\'c7\'c9\'ac\u21183 \'a1\'48\
+Ans\'a1\'47\'c9\'4f\'b3\'74\'b2\'76\uc0\u21333 \u35843 \'ba\'e2\'aa\'6b\'a4\'a3\'a6\'50\'a1\'41EDF\u35843 \'ab\'d7\'a4\'a3\'ad\'6e\'a8\'44\u36827 \'b5\'7b\'ac\'4f\'a9\'50\'b4\'c1\'a9\'ca\'aa\'ba\'a1\'41\u36827 \'b5\'7b\'a4\'5d\'a4\'a3\'bb\'dd\'ad\'6e\'a8\'43\u20010 \'ac\'f0\u21457 \'aa\'ba\'f9\'da\'a9\'77CPU\u26102 \u38388 \'a1\'43 EDF\u35843 \'ab\'d7\'aa\'ba\'a7\'6c\'a4\'de\'a4\'4f\'a6\'62\'a4\'5f\'a5\'a6\'a6\'62\'b2\'7a\u35770 \'a4\'57\'ac\'4f\'b3\'cc\'c9\'ac\'aa\'ba - \'b2\'7a\u35770 \'a4\'57\'a1\'41\'a5\'a6\'a5\'69\'a5\'48\u35843 \'ab\'d7\'ac\'79\'b5\'7b\'a1\'41\'a5\'48\'ab\'4b\'a8\'43\u20010 \'ac\'79\'b5\'7b\'b3\'a3\'af\'e0\u28385 \'a8\'ac\'a8\'e4\'ba\'49\'a4\'ee\'b4\'c1\'ad\'ad\'ad\'6e\'a8\'44\'a1\'41CPU\'a7\'51\'a5\'ce\'b2\'76\u23558 \u36798 \'a8\'ec100\'a2\'48\'a1\'43\
+\'b3\'a1\'a4\'c0\'a1\'475.6.4\
+\uc0\u38590 \'ab\'d7\'a1\'47\'a4\'a4\'b5\'a5}
